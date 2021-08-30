@@ -16,7 +16,7 @@ export class CovidFlow {
 
         let region = SessionHelper.getParameter(agent, "region");
 
-        if (region) {
+        if (region && region.original) {
             region = region.original;
         }
 
