@@ -3,6 +3,8 @@ Covid19 chatbot is a chatbot developed with Dialogflow CX which can provide gene
 
 This project contains API endpoints for data imports and webhook methods for the chatbot and the exported agent.
 
+A demo is available at https://codepen.io/ralucap/pen/BaWdXaB
+
 ## Build and start the APIs
 - run: **npm install**
 - run: **npm run build**
