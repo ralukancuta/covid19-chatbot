@@ -21,7 +21,6 @@
   "license": "ISC",
   "dependencies": {
     "@google-cloud/dialogflow-cx": "^2.13.0",
-    "@grpc/proto-loader": "^0.6.4",
     "express": "^4.15.3",
     "express-curl": "^1.0.1",
     "algoliasearch": "^4.8.3",

@@ -4,7 +4,6 @@ import { Common } from "../common/common";
 import { Messages } from "../common/messages";
 import { SessionHelper } from "./SessionHelper";
 import { Config } from "../common/Config";
-import { isAnyExtension } from "@grpc/proto-loader";
 
 // Covid19 methods for travel advice flow and number of cases
 export class CovidFlow {
@@ -570,7 +569,7 @@ ${Messages.TravelAdviceMoreResultsText[arrayindex]}`;
         for (let i = 0; i < subjects.length; i++) {
 
             if (i === 0) {
-                text += `- ${subjects[i]}`;
+                text += ` ${subjects[i]}`;
             }
             else {
                 text += `

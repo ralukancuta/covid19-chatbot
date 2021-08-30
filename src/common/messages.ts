@@ -44,7 +44,7 @@ export class Messages {
     static readonly TravelAdviceMultipleSubjectsWithGenericInfo = `The latest available information I found about {{country}} is from {{updated}}. Do you want to hear the general guidance information or specific subject like: {{subjectsText}}?`;
 
     static readonly TravelAdviceSummarySingleSubject = `The latest available information from {{updated}} about {{country}} is regarding:
-    - {{subject}}:
+    {{subject}}:
     {{content}}`;
 
     static readonly TravelAdviceSummaryMultipleSubjects = `The latest available information from {{updated}} about {{country}} is regarding:
@@ -59,7 +59,7 @@ export class Messages {
     You can tell me in your own words what's the subjects you are interested about and I can find the right information for you.`
 
     static readonly TravelAdviceGetSubjectsSingle = `Only available subject about {{country}} is regarding:
-    - {{subject}}. 
+    {{subject}}. 
     Or I could tell you about the general guidance information.`;
 
     static readonly TravelAdviceSummarySubjectResponse = `{{subject}}:
