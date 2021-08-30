@@ -63,8 +63,8 @@ Conversation examples:
 Conversation examples: 
 > "What is the travel advice for Germany?",
 > "What do I need to do when returning from Egypt?",
-> "General guidance for France"
+> "General guidance for France",
 > "What are the rules for amber countries"
 
 When many subjects are available, users can either name the desired subject or use an ordinal (e.g. first, last) to select.
-When agents states that more information is available for the subject, user can say "next" or "more" and "no more" or "enough" to stop the flow.
+When agents states that more information is available for the subject, user can say "next" or "more" to get more information and "no more" or "enough" to stop the flow.
