@@ -573,7 +573,7 @@ ${Messages.TravelAdviceMoreResultsText[arrayindex]}`;
             }
             else {
                 text += `
-- ${subjects[i]}`;
+ ${subjects[i]}`;
             }
 
             if (i === subjects.length - 2) {
